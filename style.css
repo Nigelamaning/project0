@@ -6,6 +6,7 @@ html, body {
 #container {
 	max-width: 20%;
 	margin: auto;
+
 }
 
 .et {
@@ -23,11 +24,18 @@ html, body {
 p {
 	text-align: center;	
 	padding-top: 260px
+
 }
 
-.et:hover, .jod:hover, .jo:hover, .af:hover {
+a {
+	color: black;
+}
+
+.et:hover, .jod:hover, .jo:hover, .af:hover, a:hover {
 	opacity: 0.5;
-	cursor: pointer;
+	color: black;
+	text-decoration-style: none;
+
 }
 
 .jod {
