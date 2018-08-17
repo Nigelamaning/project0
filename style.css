@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#container {
+	max-width: 20%;
+	margin: auto;
+}
+
+.et {
+	background-image: url("images/ericthomas.jpeg");
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 60px 0px;
+    transition: ease-in 0.1s;
+}
+
+p {
+	text-align: center;	
+	padding-top: 260px
+}
+
+.et:hover, .jod:hover, .jo:hover, .af:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.jod {
+	background-image: url("images/janni.png");
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    transition: ease-in 0.1s;
+}
+
+.jo {
+	background-image: url("images/jon.jpeg");
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    transition: ease-in 0.1s;
+}
+
+.af {
+	background-image: url("images/acefamily.jpeg");
+    height: 250px;
+    width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 60px;
+    transition: ease-in 0.1s;
+}
