@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+	{% block heading %}
+	Entrar Nombre Por Favor
+	{% endblock %}
+
+    {% block body %}
+     <form action="{{ url_for('hello') }}" method="post">
+         <label>Entrar Nombre: </label>
+         <input type="text" name="nombre"/>
+        <button>Enviar</button>
+     </form>
+    {% endblock %}
